@@ -2,7 +2,7 @@
     {
         "EventName": "MyEvent",
         "EventEnabled": true,
-        "Time": "18:50:00",
+        "Time": "18:55:00",
         "CommandRan": "ClassChange",
         "CustomFunction": "function() print('Hello!') end",
         "LastExecuted": null
