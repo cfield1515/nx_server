@@ -1,0 +1,10 @@
+[
+    {
+        "EventName": "MyEvent",
+        "EventEnabled": true,
+        "Time": "18:50:00",
+        "CommandRan": "ClassChange",
+        "CustomFunction": "function() print('Hello!') end",
+        "LastExecuted": null
+    }
+]
