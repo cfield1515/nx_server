@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Event Manager</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <h1>Event Manager</h1>
+    <form id="event-form">
+        <h2>Add New Event</h2>
+        <label for="event_name">Event Name:</label>
+        <input type="text" id="event_name" required><br>
+
+        <label for="start_time">Start Time (HH:MM:SS):</label>
+        <input type="text" id="start_time" required><br>
+
+        <label for="custom_function">Custom Function (Lua code):</label>
+        <textarea id="custom_function" required>function() end</textarea><br>
+
+        <button type="submit">Add Event</button>
+    </form>
+
+    <h2>Existing Events</h2>
+    <ul id="event-list"></ul>
+
+    <script src="scripts.js"></script>
+</body>
+</html>
